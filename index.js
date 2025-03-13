@@ -1,6 +1,7 @@
-const http=require('http');
+import chalk from 'chalk';
 
-http.createServer((req,res)=>{
-    res.write("HELLO");
-    res.end();
-}).listen(8080);
+const error = chalk.bold.red;
+const warning = chalk.hex('#FFA500'); // Orange color
+
+console.log(error('Error!'));
+console.log(warning('Warning!'));

@@ -1,0 +1,23 @@
+{
+  "name": "learning_node",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachitkansal05/Learning_NODE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachitkansal05/Learning_NODE/issues"
+  },
+  "homepage": "https://github.com/rachitkansal05/Learning_NODE#readme",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
