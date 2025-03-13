@@ -1,7 +1,8 @@
-import chalk from 'chalk';
-
-const error = chalk.bold.red;
-const warning = chalk.hex('#FFA500'); // Orange color
-
-console.log(error('Error!'));
-console.log(warning('Warning!'));
+const http=require('http');
+const data=require('./data');
+http.createServer((req,res)=>{
+    res.writeHead(200,{'Content-Type':'application\json'});
+    res.write(JSON.stringify(data));
+    res.end();
+}
+).listen(8080);

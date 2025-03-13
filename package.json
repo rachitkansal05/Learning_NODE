@@ -16,7 +16,6 @@
     "url": "https://github.com/rachitkansal05/Learning_NODE/issues"
   },
   "homepage": "https://github.com/rachitkansal05/Learning_NODE#readme",
-  "type": "module",
   "dependencies": {
     "chalk": "^5.4.1"
   }
